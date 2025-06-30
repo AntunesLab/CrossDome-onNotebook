@@ -25,16 +25,18 @@ The Jupyter Notebook was created by the Antunes lab members: Martiela Freitas an
 
 This CrossDome on Jupyter was developed to facilitate the use of the tool for those with little or no knowledge of the R language. Each step is described as follows:
 
-1. **Downloading the necessary libraries**: This Jupyter notebook was developed in R, as CrossDome was also developed in R. In this cell, you will download and install all the necessary libraries.
 
-2. If you don't have R installed on your computer, please follow the instructions to install it: https://www.r-project.org/.
+1. If you don't have R installed on your computer, please follow the instructions to install it: https://www.r-project.org/.
 
-3. After you have installed R, please open R in your terminal and install the IRkernel:
+2. After you have installed R, please open R in your terminal and install the IRkernel:
 
 <pre> install.packages('IRkernel')
     IRkernel::installspec(user = FALSE) </pre>
 
-4. Verify you are running your Jupyter notebook with R. In the upper right corner, confirm whether the Select Kernel is R.
+3. Verify you are running your Jupyter notebook with R. In the upper right corner, confirm whether the Select Kernel is R.
+
+
+4. **Downloading the necessary libraries**: This Jupyter notebook was developed in R, as CrossDome was also developed in R. In this cell, you will download and install all the necessary libraries.
 
 
 5. **Loading Data**: Now it's time to inform your data. Select your option and run the cell. Bellow the cell a message will be prompted with a query are to be filled.
